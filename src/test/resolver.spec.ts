@@ -11,7 +11,7 @@ import { project as fsProject, Project as FsProject } from '@TypeStrong/fs-fixtu
 import { join } from 'path';
 import * as semver from 'semver';
 import { padStart } from 'lodash';
-import _ = require('lodash');
+import _ from 'lodash';
 import { pathToFileURL } from 'url';
 import type { RegisterOptions } from '..';
 import * as fs from 'fs';

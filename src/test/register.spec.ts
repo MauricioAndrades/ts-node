@@ -3,7 +3,7 @@ import { ctxTsNode, PROJECT_TRANSPILE_ONLY, resetNodeEnvironment, TEST_DIR, tsNo
 import { context, expect } from './testlib';
 import * as exp from 'expect';
 import { join, resolve } from 'path';
-import proxyquire = require('proxyquire');
+import proxyquire from 'proxyquire'
 
 const SOURCE_MAP_REGEXP = /\/\/# sourceMappingURL=data:application\/json;charset=utf\-8;base64,[\w\+]+=*$/;
 

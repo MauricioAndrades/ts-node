@@ -10,7 +10,7 @@ import {
   tsSupportsStableNodeNextNode16,
 } from './helpers/version-checks';
 import { context, expect } from './testlib';
-import semver = require('semver');
+import semver from 'semver';
 import { testsDirRequire } from './helpers';
 
 const exec = createExec({

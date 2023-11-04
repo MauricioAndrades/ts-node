@@ -2,7 +2,8 @@
 
 import { join, resolve, dirname, parse as parsePath, relative } from 'path';
 import { inspect } from 'util';
-import Module = require('module');
+// import Module = require('module');
+import Module from 'module'
 let arg: typeof import('arg');
 import { parse, hasOwnProperty, versionGteLt } from './util';
 import {

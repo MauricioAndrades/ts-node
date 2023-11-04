@@ -2,7 +2,7 @@
 // and typescript in the test matrix.
 
 import { execSync } from 'child_process';
-import semver = require('semver');
+import semver from 'semver';
 import { ctxTsNode, ts } from './helpers';
 import { context, expect } from './testlib';
 

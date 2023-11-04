@@ -1,4 +1,4 @@
-import semver = require('semver');
+import semver from 'semver';
 import { ts } from './misc';
 
 // Version checks, used to conditionally enable tests.

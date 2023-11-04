@@ -2,14 +2,15 @@
 {
   "$schema": "./tsconfig.schemastore-schema.json",
   "compilerOptions": {
+    "allowSyntheticDefaultImports":true,
     // `target` and `lib` match @tsconfig/bases for node14, since that's the oldest node LTS, so it's the oldest node we support
-    "target": "es2020",
+    "target": "ESNext",
     "lib": ["es2020"],
     "rootDir": ".",
     "outDir": "temp",
     "tsBuildInfoFile": "temp/tsconfig.tsbuildinfo",
     "noEmit": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "moduleResolution": "node",
     "strict": true,
     "declaration": true,

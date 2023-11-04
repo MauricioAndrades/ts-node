@@ -6,7 +6,7 @@ import {
   ts,
   tsSupportsMtsCtsExtensions,
 } from '../helpers';
-import semver = require('semver');
+import semver from 'semver';
 import { CMD_TS_NODE_WITH_PROJECT_FLAG, ctxTsNode, TEST_DIR } from '../helpers';
 import { createExec, createExecTester } from '../helpers/exec';
 import { upstreamTopLevelAwaitTests } from './node-repl-tla';

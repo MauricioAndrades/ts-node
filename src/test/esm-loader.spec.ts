@@ -3,7 +3,7 @@
 // Should consolidate them here.
 
 import { context } from './testlib';
-import semver = require('semver');
+import semver from 'semver';
 import {
   BIN_ESM_PATH,
   BIN_PATH,

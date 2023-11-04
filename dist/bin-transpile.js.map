@@ -1,0 +1,1 @@
+{"version":3,"file":"bin-transpile.js","sourceRoot":"","sources":["../src/bin-transpile.ts"],"names":[],"mappings":";AAEA,OAAO,EAAE,IAAI,EAAE,MAAM,OAAO,CAAC;AAE7B,IAAI,CAAC,SAAS,EAAE,EAAE,iBAAiB,EAAE,IAAI,EAAE,CAAC,CAAC","sourcesContent":["#!/usr/bin/env node\n\nimport { main } from './bin';\n\nmain(undefined, { '--transpileOnly': true });\n"]}
