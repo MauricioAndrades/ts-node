@@ -32,6 +32,6 @@
     "tests/tmp"
   ],
   "plugins": [
-    "https://plugins.dprint.dev/prettier-0.6.2.exe-plugin@36dd4f8b9710ab323c471017ecd00a20cf1dca2728c12242c7dabb8dfacad0e2"
+    "https://plugins.dprint.dev/prettier-0.40.0.json@68c668863ec834d4be0f6f5ccaab415df75336a992aceb7eeeb14fdf096a9e9c"
   ]
 }
